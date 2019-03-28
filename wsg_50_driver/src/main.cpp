@@ -593,7 +593,7 @@ int main( int argc, char **argv )
 		ROS_INFO("Ready to use. Homing and taring now...");
 		homing();
         ros::Duration(0.5).sleep();
-        doTare();
+        //doTare();
 
 		if (grasping_force > 0.0) {
 			ROS_INFO("Setting grasping force limit to %5.1f", grasping_force);
